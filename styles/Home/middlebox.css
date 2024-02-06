@@ -1,0 +1,34 @@
+.middlebox
+{
+    position: relative;
+    float: left;
+    height: 82%;
+    width: 80.2%;
+    overflow: hidden;
+    display: flex;
+    background: linear-gradient(50deg, #00D8DC, #60749F);
+    justify-content: center;
+}
+
+.FramContainer
+{
+    position: absolute;
+    overflow: hidden;
+    width: 126%;
+    float: left;
+    top: -31%;
+    left: -18%;
+    height:200%;
+    padding: 10px;
+
+    border: 0;
+    text-align: center  ;
+} 
+
+h1
+{
+    text-align:  center;
+    padding: 2%;
+    padding-left: 0;
+    color: azure;
+}

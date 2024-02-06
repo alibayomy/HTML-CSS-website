@@ -1,0 +1,36 @@
+.navigationbar
+{
+    position: sticky;
+    background-color: #10898D;
+    text-align: center;
+    top: 10%;
+}
+.navigationbar ul
+{
+    display: inline-block;
+    list-style-type: none;
+ 
+
+ 
+
+}
+.navigationbar li
+{
+    display: inline block;
+    margin: 0;
+    padding: 10px;
+    float: left;
+
+}
+.navigationbar li a
+{
+    color: wheat;
+    font-weight: 300;
+}
+.navigationbar li a:hover
+{
+    color: black;
+    transition: 0.5s;
+    font-weight: 600;
+
+}

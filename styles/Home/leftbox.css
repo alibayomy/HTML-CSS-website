@@ -1,0 +1,46 @@
+@font-face {
+    font-family: myFont;
+    src: url("../../fonts/Lato-Black.ttf");
+}
+@font-face {
+    font-family: Nova;
+    src: url("../../fonts/Nova/NovaSquare-Regular.ttf");
+}
+.leftbox
+{
+    float: left;
+    width: 15%;
+    height: 82%;
+    background-color: #023047;
+    text-align: center;
+}
+.leftboxImg
+{
+    width: 50%;
+    border-radius:50%;
+
+}
+.myinfo
+{
+    text-align: center;
+}
+h2
+{
+    font-family: myFont;
+    color: #A9E1EE;
+    font-weight: bold;
+}
+p
+{
+    font-family: nova;
+    font-size: large;
+    color: azure;
+    font-weight: bold;
+}
+.quote
+{
+    font-family: myFont;
+    padding-top: 10%;
+    font-size: x-large;
+    color: aliceblue;
+}

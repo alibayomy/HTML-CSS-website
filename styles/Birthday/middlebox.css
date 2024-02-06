@@ -1,0 +1,54 @@
+.middlebox
+{
+    float: left;
+    background-image: url("../../Images/Birthday.webp");
+    background-size: contain;
+    width: 80.2%;
+    height: 82%;
+    animation-name: Birthdaytext;
+    animation-duration: 0s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+h3
+{
+    background: linear-gradient(45deg, #023047, #D2D2D4);
+    color: white;
+    padding: 13px 20px;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.textform
+{
+    padding-bottom: 5%;
+    text-align: center;
+    opacity: 0;
+    animation-name: Birthdaytext;
+    animation-duration: 0s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+textarea
+{
+    border: 10px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+@keyframes Birthdaytext
+{
+    from
+    {
+        background-image: url("../../Images/Birthday.webp");
+        width: 80.2%;
+        height: 82%;
+        background-size: cover;
+    }
+    to
+    {
+        background-image: none;
+        opacity: 1;
+    }
+}

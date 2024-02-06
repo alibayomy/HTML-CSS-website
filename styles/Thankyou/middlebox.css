@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "ThankyouLato";
+    src: url(../../fonts/Lato-Italic.ttf);
+}
+.middlebox
+{
+    float: left;
+    font-family: ThankyouLato;
+    background: linear-gradient(50deg, #00D8DC, #60749F);
+    width: 80.2%;
+    height: 82%;
+    background-color: #D2D2D4;
+    text-align: center;
+}
+.middlebox h2
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    background: linear-gradient(45deg, #023047, #D2D2D4);
+    color: white;
+    padding: 13px 20px;
+    font-size: 500%;
+    margin-top: 15%;
+    margin-left: 5%;
+
+}
+

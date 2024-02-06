@@ -1,0 +1,73 @@
+/* .middlebox
+{
+    position: absolute;
+    height: 82%;
+    width: 81%;
+    top: 59%;
+    left: 55.1%;
+    overflow: hidden;
+    background: linear-gradient(50deg, #00D8DC, #60749F);
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+} */
+.middlebox
+{
+    position: relative;
+    float: left;
+    height: 82%;
+    width: 80.2%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.Slider
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    25%
+    {
+        transform: translateX(0);
+        
+    }
+    30%
+    {
+        transform: translateX(-100%);
+
+    }
+    50%
+    {
+        transform: translateX(-100%);
+
+    }
+    55%
+    {
+        transform: translateX(-199%);
+
+    }
+    75%
+    {
+        transform: translateX(-199%);
+
+    }
+    80%
+    {
+        transform: translateX(-298%);
+
+    }
+    100%
+    {
+        transform: translateX(-298%);
+
+    }
+
+}

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "SocialsTitle";
+    src: url(../../fonts/Lato-Bold.ttf);
+}
+.middlebox
+{
+    float: left;
+    background: linear-gradient(50deg, #00D8DC, white);
+    width: 80.2%;
+    height: 82%;
+    background-color: #D2D2D4;
+}
+.middlebox h2,h3
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 600px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #023047, #D2D2D4);
+    color: white;
+    padding: 13px 20px;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+h3
+{
+    font-size: 20px;
+   margin-left: 60%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+/* Contact Form Styling  */
+.contactform
+{
+    
+    padding-left: 80%;
+    
+}
+
+.contactform input[type="image"]
+{
+    width: 10%;
+}
+.contactform input[type="text"], .contactform input[type="email"], .contactform textarea
+
+{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.contactform label
+{
+    font-family: SocialsTitle;
+}
+/*-------------------------------*/
+.container
+{
+    text-align: left;
+    padding-left: 4%;
+    padding-top: 3%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: end;
+    
+}
+.midtext
+{
+    font-size: 15px;
+    position: absolute;
+    display: inline-block;
+    top: 60%;
+    opacity: 0;
+}
+.Facebook .midtext
+{   
+    left: 19%;
+}
+.Twitter .midtext
+{
+    left: 40%;
+}
+.LinkedIn .midtext
+{
+    left:60%;
+}
+.GitHub .midtext
+{
+    left:81%;
+}
+.linkname
+{
+    background-color:#04AA6D;
+    color: white;
+    font-size: 16px;
+}
+.container img
+{
+    width: 100px;
+}
+.Facebook:hover img, .Twitter:hover img, .LinkedIn:hover img, .GitHub:hover img
+{
+    opacity: 0.3;
+}
+.Facebook:hover .midtext, .Twitter:hover .midtext, .LinkedIn:hover .midtext, .GitHub:hover .midtext
+{
+    opacity: 1;
+}

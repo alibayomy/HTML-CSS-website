@@ -1,0 +1,116 @@
+@font-face {
+    font-family: SkillsFont;
+    src: url(../../fonts/Lato-LightItalic.ttf);
+} 
+{
+    
+}
+.middlebox
+{
+    float: left;
+    background: linear-gradient(50deg, #00D8DC, #60749F);
+    width: 80.2%;
+    height: 82%;
+    background-color: #D2D2D4;
+    text-align: center;
+    justify-content: center;
+}
+
+.middlebox h2, h3
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 600px;
+    font-size: 20px;
+   
+}
+.middlebox h2
+{
+    background: linear-gradient(45deg, #023047, #D2D2D4);
+    color: white;
+    padding: 13px 20px;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center !important;
+    display:block;
+}
+.middlebox h2:before
+{
+    content: url("../../Images/icons8-resume-100.png");
+}
+.middlebox h3
+{
+    background: linear-gradient(45deg, #49E8ED, #D2D2D4);
+    color: red;
+    padding: 13px 20px; 
+    font-size: 30px;
+    font-style: oblique;
+}
+.Aboutme
+{
+    display: flex;
+    text-align: left;
+}
+.Aboutme h4
+{
+    padding-left: 5%;
+    display: inline-block;
+}
+.education
+{
+    text-align: center;
+    margin-left: 5%;
+}
+.date
+{
+    border: solid 2px black;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+/* Adding a vr in the middle of the page */
+.vr
+{
+    border-left: 1px solid black;
+    margin-left: 10%;
+}
+/* --------------------------------------- */
+.skillstitle
+{
+    border-left: 1px solid black;
+    margin-left: 5%;
+    padding-top: 50%;
+}
+.Skills
+{
+    margin: 5%;
+    width: 100%;
+    text-align: center;
+
+}
+/* Graphing my skills */
+.container
+{
+    border: 2px solid #D5C0B6;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.python{width: 60%; background-color: red;}
+.HTML{width: 90%; background-color: orange;}
+.CSS{width: 70%; background-color: yellow;}
+/* adding the icons beside the titles */
+.Skills span
+{
+    font-family: SkillsFont;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+
+}

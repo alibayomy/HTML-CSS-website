@@ -1,0 +1,13 @@
+.leftbox
+{
+    float: left;
+    width: 15%;
+    height: 82%;
+    background-color: #023047;
+    text-align: center;
+}
+.leftboxImg
+{
+    width: 50%;
+    border-radius:50%;
+}

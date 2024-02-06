@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ContactUs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/Hobbies/header.css">
+        <link rel="stylesheet" href="styles/Hobbies/navigationbar.css">
+        <link rel="stylesheet" href="styles/Hobbies/leftbox.css">
+        <link rel="stylesheet" href="styles/Hobbies/rightbox.css">
+        <link rel="stylesheet" href="styles/Contactus/middlebox.css">
+
+    </head>
+    <body>
+        <!-- My body contains 4 main divs
+        first div: Header
+        second div: navigation bar
+        third div: left info
+        4th div: middle conent
+        5th dif: right content
+        6th div: the footer -->
+        <div class="header">
+            <img src="Images/iti_icon.jfif" width="5%">
+        </div>
+        <div class="navigationbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Draft.html" target="iframe1">
+                    hobby</a></li>
+                <li><a href="birthday.html">Birthday</a></li>
+                <li><a href="contactme.html">ContactUs</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="sliding.html">Sliding Mode</a></li>
+            </ul>
+            
+        </div>
+        <div class="leftbox">
+        </div>
+        <div class="middlebox">
+            <!-- Middle and Main box of the page which contains
+            1- Form to email me
+            2- container for my socials -->
+            <h2>My Socials</h2>
+            <h3>Want to Email me ?</h3><br>
+            <form class="contactform" action="mailto:alibayomy12@gmail.com" method="get" enctype="text/plain">
+                <label for="SenderName"> Your Name</label><br>
+                <input type="text" name="subject" placeholder="Please enter your name"><br>
+                <label for="SenderEmail">Your Email</label><br>
+                <input type="email" name="email" placeholder="Please enter your emal"><br><br>
+                <label for="body">Type your message</label><br>
+                <textarea name="body" rows="5%" cols="20%" placeholder="Kindly type your message here"></textarea>
+                <input type="image" src="Images/icons8-gmail-480.png">
+            </form>
+            
+            <section class="container">
+                <!-- Sperated each social account to different div box for contrloing -->
+                <div class="Facebook">
+                    <a href="https://www.facebook.com/alibayomy12/" target="_blank">
+                        <img src="Images/icons8-facebook-480.png"><br>
+                    </a>
+                    <div class="midtext">
+                        <div class="linkname">
+                            <a href="https://www.facebook.com/alibayomy12/" target="_blank">Facebook</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="Twitter">
+                    <a href="https://twitter.com/ali_bayomy" target="_blank">
+                        <img src="Images/icons8-twitter-240.png"><br>
+                    </a>
+                    <div class="midtext">
+                        <div class="linkname">
+                            <a href="https://twitter.com/ali_bayomy" target="_blank">Twitter</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="LinkedIn">
+                    <a href="https://www.linkedin.com/in/ali-bayomy-04a954216/" target="_blank">
+                        <img src="Images/icons8-linkedin-240.png"><br>
+                    </a>
+                    <div class="midtext">
+                        <div class="linkname">
+                            <a href="https://www.linkedin.com/in/ali-bayomy-04a954216/" target="_blank">LinkedIn</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="GitHub">
+                    <a href="https://github.com/alibayomy" target="_blank">
+                        <img src="Images/icons8-github-400.png"><br>
+                    </a>
+                    <div class="midtext">
+                        <div class="linkname">
+                            <a href="https://github.com/alibayomy" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                </div>
+
+            </section>
+        </div>
+        <div class="rightbox"></div>
+    </body>
+</html>
